@@ -30,8 +30,19 @@
 				<h2>We ❤️ Your Data!</h2>
 				<p class="modal-text" id="modal-text">We have a strict policy on tracking and spamming: we'll definitely track you, and we'll definitely spam you. To use this site, enter your name and email address and accept our ridiculous terms and conditions.</p>				
 				<form id="consent-form">
-					<input required type="text"  name="fullName" placeholder="Enter your full name">
-					<input required type="email" name="Email" placeholder="Enter you Email">
+					<input 
+						required 
+						type="text"  
+						name="fullName" 
+						placeholder="Enter your full name"
+						aria-label="Full name">
+					<input 
+						required 
+						type="email" 
+						name="Email" 
+						placeholder="Enter you Email"
+						aria-label="Email address">
+						
 					<div class="modal-choice-btns reverse" id="modal-choice-btns">
 						<button type="submit" class="modal-btn">Accept</button>
 						<button class="modal-btn" id="decline-btn">Decline</button>
